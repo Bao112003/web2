@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+   
+</head>
+
+<body>
+    <section id="overlay"></section>
+    <!-- header -->
+    <header>
+        <div class="container">
+          <nav class="navbar">
+            <!-- logo -->
+            <div class="navbar__logo">
+              <img src="./img/logo.svg" alt="website logo" />
+            </div>
+            <!-- links -->
+            <ul class="navbar__links">
+              <li class="navbar__link"><a href="#works">Work</a></li>
+              <li class="navbar__link"><a href="#things">About</a></li>
+              <li class="navbar__link"><a href="#works">Resume</a></li>
+              <a href="#footer"><button class="navbar__btn">Contact</button></a>
+            </ul>
+            <!-- menu button -->
+            <div class="navbar__icons">
+              <div class="navbar__icon" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- banner -->
+      <section id="banner">
+        <div class="container">
+            <!-- img -->
+            <div class="banner__img">
+                <img src="./img/banner-img.png" alt="">
+            </div>
+            <!-- heading -->
+            <div class="banner__heading">
+                <h1>Hello,I'm Bao</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto facere dolore aliquid quaerat perspiciatis, nulla minus libero fuga nemo veniam tenetur eius? Eos sequi esse quo delectus quae ad consequuntur?
+                Sint laudantium doloremque, blanditiis numquam tempore quo magni optio officia soluta, dolorem similique, adipisci ratione. Itaque maiores nemo, quaerat magnam ipsa, sint unde labore iure aliquid hic eaque quisquam fugit</p>
+                <a href=""><button classs="banner__btn">View More</button></a>
+                <div class="banner__socials">
+                    <a href="https://www.facebook.com/bpa3000"><i class="fa fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/ewe_guf/"><i class=" fa fa-brands fa-instagram"></i></a>
+                    <a href=""><i class=" fa fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- things -->
+      <section id="things">
+        <div class="container">
+            <div class="things__dec">
+                <img src="./img/things-dec-l.png" alt="">
+            </div>
+            <div class="things__dec">
+                <img src="./img/things-dec-r.png" alt="">
+            </div>
+            <!-- heading -->
+            <h2>Thing I Do</h2>
+            <!-- item -->
+            <div class="things__item">
+                <img src="./img/things-item-1.png" alt="">
+                <div class="things__item--heading">
+                    <h3>Lorem</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, placeat dolor ex saepe eligendi dignissimos, est beatae, explicabo laudantium accusantium excepturi commodi error ducimus tempore.</p>
+                </div>
+            </div>
+            <div class="things__item">
+                <img src="./img/things-item-2.png" alt="">
+                <div class="things__item--heading">
+                    <h3>Lorem</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, placeat dolor ex saepe eligendi dignissimos, est beatae, explicabo laudantium accusantium excepturi commodi error ducimus tempore.</p>
+                </div>
+            </div>
+            <div class="things__item">
+                <img src="./img/things-item-3.png" alt="">
+                <div class="things__item--heading">
+                    <h3>Lorem</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, placeat dolor ex saepe eligendi dignissimos, est beatae, explicabo laudantium accusantium excepturi commodi error ducimus tempore.</p>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- work -->
+      <section id="works">
+        <div class="container">
+            <!-- dec -->
+        <div class="works__dec">
+            <img src="./img/work-dec.png" alt="illustration of leaf" />
+          </div>
+          <div class="works__dec">
+            <img src="./img/work-dec.png" alt="illustration of leaf" />
+          </div>
+            <!-- heading -->
+            <h2>Recent Works</h2>
+            <div class="works__img">
+                <div class="works__img--single">
+                    <img src="./img/work-1.png" alt="">
+                </div>
+                <div class="works__img--single">
+                    <img src="./img/work-2.png" alt="">
+                </div>
+                <div class="works__img--single">
+                    <img src="./img/work-3.png" alt="">
+                </div>
+                <div class="works__img--single">
+                    <img src="./img/work-4.png" alt="">
+                </div>
+            </div>
+            <div class="works__btn">
+                <a href="" ><button>View Works</button></a>
+            </div>
+        </div>
+      </section>
+       <!-- footer -->
+    <footer id="footer">
+        <div class="container">
+          <!-- dec -->
+          <div class="footer__dec">
+            <img src="./img/things-dec-l.png" alt="illustration of leaf" />
+          </div>
+          <!-- img -->
+          <div class="footer__img">
+            <img src="./img/footer-img.png" alt="illustration of women" />
+          </div>
+          <!-- heading -->
+          <div class="footer__heading">
+            <h1>Ready to make something amazing?</h1>
+            <!-- contact -->
+            <div class="footer__contact">
+              <a href="tel:901234567">
+                <i class="fas fa-phone-alt"></i>
+                <p>0336040785</p>
+              </a>
+              <a href="mailto:info@me.com">
+                <i class="fas fa-envelope"></i>
+                <p>phanbao010103@gmail.com</p>
+              </a>
+            </div>
+            <div class="banner__socials">
+              <a href="#"><i class="fab fa-dribbble"></i></a>
+              <a href="#"><i class="fab fa-behance"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/28c0af3030.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
